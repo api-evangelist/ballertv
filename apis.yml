@@ -1,8 +1,16 @@
 aid: ballertv
 name: BallerTV
-description: 'BallerTV is a company surfaced as a portfolio company of index-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: entertainment. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'BallerTV (Baller, Inc.) is a Pasadena, California sports media company
+  that live streams and provides on-demand replays and highlights of youth and amateur
+  sports, including basketball, volleyball, soccer, lacrosse, softball, and football,
+  from thousands of tournaments and showcases nationwide. Subscribers range from families
+  following athletes to NCAA and professional scouts using the footage for recruiting
+  and scouting. The platform includes a Game Finder for locating events, purchasable
+  athlete highlight reels, and BTVision, an AI-powered ball-tracking streaming technology
+  that improves the basketball viewing experience. BallerTV is a consumer streaming
+  product delivered through its website and iOS/Android apps; it does not publish a
+  public developer API or SDK program. This profile was surfaced as an index-ventures
+  portfolio company and enriched from public web sources.'
 url: https://raw.githubusercontent.com/api-evangelist/ballertv/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,30 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://s3.amazonaws.com/baller-assets/website/BallerTV-OGP-Default-1200x630.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Entertainment
+- Sports
+- Video Streaming
+- Live Streaming
+- Media
+- Youth Sports
+- Recruiting
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ballertv-domain-security.yml
 - type: Website
-  url: http://baller.tv
+  url: https://www.ballertv.com
+- type: About
+  url: https://www.ballertv.com/about-us
+- type: SignUp
+  url: https://www.ballertv.com/membership
+- type: Login
+  url: https://www.ballertv.com/users/login
+- type: Support
+  url: https://support.baller.tv/hc/en-us
+- type: Blog
+  url: https://medium.com/ballertv
+- type: GitHubOrganization
+  url: https://github.com/ballertv
+- type: TermsOfService
+  url: https://www.ballertv.com/legal-web#terms-of-use
+- type: PrivacyPolicy
+  url: https://www.ballertv.com/legal-web#privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
